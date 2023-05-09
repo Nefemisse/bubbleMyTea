@@ -1,0 +1,100 @@
+/*general styling of the webpage*/
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: Edu SA Beginner, Roboto;
+}
+
+body {
+    background-image: url(img/bg-img-order.png);
+}
+
+a {
+    text-decoration: none !important;
+    color: #62381c !important;
+    font-weight: bold;
+}
+
+i, p {
+    color: #62381c;
+}
+
+/*styling of the navbar*/
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.searchbar {
+    border: none;
+    border-bottom: 1px solid #62381c;
+}
+
+.logo {
+    width: 40%;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    align-items: baseline;
+}
+
+.navbar-nav, .search_bar, .right a {
+    padding: 1em;
+    font-size: 1em;
+}
+
+.row {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    overflow-x: hidden;
+}
+
+/*styling of the connectin modal*/
+.justify-content-center {
+    margin-bottom: 2em;
+}
+
+.modal-content, .card {
+    background-color: #F0EDE6 !important;
+}
+
+.modal-content div, .btn-block, .form-group {
+    color: #62381c !important;
+}
+
+
+/*styling of the content*/
+
+h2, p {
+    color: #62381c !important;
+    margin: 1em !important;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+}
+
+.number, .address {
+    margin: 2rem;
+}
+
+span {
+    margin: 1rem;
+}
+
+hr {
+    width: 60%;
+}
+
+.findUs {
+    text-align: center;
+}

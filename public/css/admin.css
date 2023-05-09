@@ -1,0 +1,133 @@
+/* general styling of the webpage*/
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Edu SA Beginner, Roboto;
+}
+
+body {
+    background-image: url(img/bg-img-dashboard.png) !important;
+    background-size: cover;
+}
+
+a {
+    color: #62381c;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Gluten, Roboto;
+    font-size: 3rem !important;
+    color: #62381c;
+}
+
+h2 {
+    margin-top: 2em;
+}
+.card_cart {
+    width: 100vw;
+}
+/*styling of navbar*/
+.logo {
+    width: 40%;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin: 0;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    width: 65%;
+}
+
+.navbar-nav, .search_bar, .right a, .right .btn-primary {
+    padding: 1em;
+    font-size: 1em;
+}
+
+
+/*styling of the products*/
+
+.card-header {
+    font-size: 2em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.row {
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.fields {
+   
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: 136px;
+    object-fit: cover;
+    border-color: #62381c;
+    background-color: #F0EDE6;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+/*styling of the clients*/
+.table {
+}
+
+.delete {
+    border: 1px solid #62381c;;
+    font-weight: bold;
+}
+
+/* styling of the connection modal */
+
+button, .save {
+    border: 1px solid #62381c;
+    background-color: #F0EDE6 !important;
+    color: #62381c !important;
+}
+
+.justify-content-center {
+    margin-bottom: 2em;
+}
+
+.modal-content, .card {
+    background-color: #F0EDE6 !important;
+}
+
+.modal-content div, .btn-block, .form-group {
+    color: #62381c !important;
+}
+
+/* RESPONSIVENESS*/
+@media (max-width: 1000px) and (min-width: 770px) {
+
+}

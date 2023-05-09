@@ -1,0 +1,98 @@
+/*general styling of the webpage*/
+* {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Edu SA Beginner, Roboto;
+}
+
+body {
+    background-image: url(img/bg-img.png) !important;
+    background-size: cover;
+}
+
+a {
+    color: #62381c;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Gluten, Roboto;
+    font-size: 3rem !important;
+    color: #62381c;
+    margin-top: 1em !important;
+}
+
+/*styling of the navbar*/
+.logo {
+    width: 40%;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin: 0;
+}
+
+input, input button {
+    border: none !important;
+    border-bottom: 2px solid #62381c !important;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    width: 65%;
+}
+
+.navbar-nav, .search_bar, .right a, .right .btn-primary {
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+button {
+    border: none;
+    background-color: none;
+}
+
+/* styling content */
+.orderNow, .btn-secondary{
+    background-color: #CB5F08 !important;
+    color: white !important;
+    margin-top: 6em;
+    padding: 0.6em 1.5em 0.6em 1.5em;
+}
+
+.orderNow a {
+    color: white;
+    font-weight: bold;
+}
+
+.img-fluid {
+    width: 75%;
+}
+
+/* styling the modal */
+.btn-primary {
+    background-color: none ;
+    color: #62381c !important;
+}
+
+.justify-content-center {
+    margin-bottom: 2em;
+}
+
+.modal-content, .card {
+    background-color: #F0EDE6 !important;
+}
+
+.modal-content div, .btn-block, .form-group {
+    color: #62381c !important;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1000px) and (min-width: 770px) {
+
+}

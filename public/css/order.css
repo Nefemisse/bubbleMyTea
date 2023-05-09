@@ -1,0 +1,157 @@
+/* General parameters of the webpage*/
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: Edu SA Beginner, Roboto;
+}
+
+body {
+    background-image: url(img/bg-img-order.png);
+}
+
+a {
+    text-decoration: none !important;
+    color: #62381c !important;
+    font-weight: bold;
+}
+
+i, p {
+    color: #62381c;
+}
+
+/*styling of the navbar*/
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.searchbar {
+    border: none;
+    border-bottom: 1px solid #62381c;
+}
+
+.selectSize {
+    cursor: default !important;
+}
+
+.selectSize, .selectTea, .modifyTea, .btn-primary, .selectMilk {
+    border: none;
+    background-color: #CB5F08 !important;
+    padding: 0.6em
+}
+
+button, button a {
+    color: white !important;
+}
+
+.logo {
+    width: 40%;
+}
+
+.navbar-header {
+    width: 30%;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    align-items: baseline;
+}
+
+.navbar-nav, .search_bar, .right a {
+    padding: 1em;
+    font-size: 1em;
+}
+
+.row {
+    justify-content: center;
+    width: 100%;
+    padding: 1em;
+    overflow-x: hidden;
+    margin: 2em;
+}
+
+/*styling of the content of the page*/
+h2 {
+    text-align: left;
+    color: #62381c !important;
+    margin: 1em !important;
+}
+
+.sizeCupImg  {
+    height: 200px;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: 136px !important;
+    object-fit: cover;
+    background-image: url(img/bg-img-order.png);
+    border-color: #62381c !important;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+}
+
+/*styling of the connection modal*/
+.modal{
+    --bs-modal-width: 45rem !important;
+}
+
+.justify-content-center {
+    margin-bottom: 2em;
+}
+
+.modal-content, .card {
+    background-color: #F0EDE6 !important;
+}
+
+.modal-content div, .btn-block, .form-group {
+    color: #62381c !important;
+}
+
+.btn-block {
+    border: 1px solid #62381c !important;
+}
+
+/*styling of the modify your bubble tea modal*/
+.top {
+    margin-top: 1em;
+    border: 3px solid #CB5F08;
+    width: 80%;
+}
+
+.bot {
+    border: 2px dashed #62381c;
+    width: 40%;
+}
+
+.modify-img {
+    text-align: center;
+}
+
+.col-md-6 li {
+    padding: 1em;
+}
+
+h3 {
+    width: 120%;
+}
+
+.temperature, .size{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* RESPONSIVENESS*/
+@media (max-width: 1000px) and (min-width: 770px) {
+
+}
